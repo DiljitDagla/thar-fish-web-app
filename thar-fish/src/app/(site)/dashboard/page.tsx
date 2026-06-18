@@ -162,10 +162,10 @@ export default function DashboardPage() {
                   src={g.src}
                   alt={g.title}
                   fill
-                  className="object-cover transition-transform duration-500 ease-out group-hover:scale-110"
+                  className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                 />
-                {/* Always-on gradient so captions stay readable; deepens on hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent transition-opacity duration-300 group-hover:from-black/85" />
+                {/* Bottom scrim keeps the image clean up top while captions stay legible */}
+                <div className="pointer-events-none absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-black/70 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-3">
                   <Badge
                     variant="gold"

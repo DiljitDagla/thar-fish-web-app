@@ -68,9 +68,12 @@ export function AdminTopbar({
   const segments = pathname.split("/").filter(Boolean);
 
   const toggleDark = () => {
+    const html = document.documentElement;
+    html.classList.add("theme-transition");
+    window.setTimeout(() => html.classList.remove("theme-transition"), 400);
     setDark((d) => {
       const next = !d;
-      document.documentElement.classList.toggle("dark", next);
+      html.classList.toggle("dark", next);
       return next;
     });
   };

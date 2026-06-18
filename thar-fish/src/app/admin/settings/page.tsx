@@ -48,8 +48,11 @@ export default function SettingsPage() {
     toast({ title: "Settings saved", description: "Your changes have been applied (demo).", variant: "success" });
 
   const toggleDark = (v: boolean) => {
+    const html = document.documentElement;
+    html.classList.add("theme-transition");
+    window.setTimeout(() => html.classList.remove("theme-transition"), 400);
     setDark(v);
-    document.documentElement.classList.toggle("dark", v);
+    html.classList.toggle("dark", v);
   };
 
   return (

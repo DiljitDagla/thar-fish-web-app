@@ -1,0 +1,128 @@
+﻿
+> thar-fish@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.6:3000
+
+ ✓ Starting...
+ ✓ Ready in 5s
+ ○ Compiling /login ...
+ ✓ Compiled /login in 2.2s (696 modules)
+ GET /login 200 in 2930ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.6s (664 modules)
+ GET / 200 in 4571ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 1738ms (381 modules)
+ ✓ Compiled (422 modules)
+ GET /favicon.ico 200 in 2850ms
+ GET /login 200 in 3035ms
+ ○ Compiling /admin ...
+ ✓ Compiled /dashboard in 41.8s (2048 modules)
+ GET /admin 200 in 15801ms
+ GET /admin 200 in 43329ms
+ GET /admin 200 in 10821ms
+ GET /dashboard 200 in 23798ms
+ GET /admin 200 in 388ms
+ GET /dashboard 200 in 400ms
+ GET /admin 200 in 296ms
+ ○ Compiling /admin/orders ...
+ ✓ Compiled /admin/ponds in 12.5s (2056 modules)
+ GET /admin/inventory 200 in 12726ms
+ GET /admin/orders 200 in 13798ms
+ GET /admin/ponds 200 in 12142ms
+ ○ Compiling /admin/bookings ...
+ ✓ Compiled /admin/bookings in 2.6s (2067 modules)
+ GET /admin/bookings 200 in 3773ms
+ ○ Compiling /admin/enquiries ...
+ ✓ Compiled /admin/hatchery in 16.2s (2091 modules)
+ GET /admin/inventory 200 in 17237ms
+ GET /admin 200 in 14461ms
+ GET /admin/hatchery 200 in 16396ms
+ GET /admin/enquiries 200 in 20732ms
+ GET /admin/orders 200 in 527ms
+ GET /admin/inventory 200 in 606ms
+ ✓ Compiled in 6.1s (977 modules)
+ GET /admin/ponds 200 in 1908ms
+ GET /admin/ponds 200 in 757ms
+ GET /admin/ponds 200 in 553ms
+ GET /admin/hatchery 200 in 109ms
+ GET /admin/ponds 200 in 131ms
+ ○ Compiling /admin/customers ...
+ ✓ Compiled /admin/customers in 8.4s (2072 modules)
+ GET /admin/customers 200 in 8954ms
+ GET /admin/customers 200 in 296ms
+ GET /admin/customers 200 in 283ms
+ GET /admin/customers 200 in 166ms
+ GET /admin/bookings 200 in 158ms
+ GET /admin/enquiries 200 in 407ms
+ ○ Compiling /admin/reports ...
+ ✓ Compiled /admin/reports in 14.5s (2073 modules)
+ GET /admin/reports 200 in 22353ms
+ GET /admin/reports 200 in 800ms
+ GET /admin/reports 200 in 906ms
+ GET /admin/reports 200 in 194ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 6.3s (1112 modules)
+ GET /login 200 in 7271ms
+ GET /login 200 in 328ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 12s (1147 modules)
+ GET /dashboard 200 in 15394ms
+ GET /login 200 in 435ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 869ms (1155 modules)
+ GET /admin 200 in 1137ms
+ GET /login 200 in 212ms
+ GET /dashboard 200 in 185ms
+node.exe :  ⨯ upstream image response failed for 
+https://images.unsplash.com/photo-1583912267550-d6c2ac3196c0?auto=format&fit=crop&w=800&q=80 404
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ( ⨯ upstream ima...&w=800&q=80 404:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ ✓ Compiled in 1901ms (2143 modules)
+ ✓ Compiled in 495ms (988 modules)
+ ✓ Compiled in 733ms (988 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 2.4s (1107 modules)
+ GET / 200 in 4024ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.6s (1152 modules)
+ GET /dashboard 200 in 4837ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1583912267550-d6c2ac3196c0?auto=format&fit=crop&w=800&q=80 
+404
+ GET /dashboard 200 in 815ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1583912267550-d6c2ac3196c0?auto=format&fit=crop&w=800&q=80 
+404
+ ○ Compiling /tourism ...
+ ✓ Compiled /marketplace in 15.1s (2131 modules)
+ GET /tourism 200 in 15959ms
+ GET /marketplace 200 in 14324ms
+ GET /tourism 200 in 399ms
+ GET /marketplace 200 in 470ms
+ GET /tourism 200 in 436ms
+ GET /marketplace 200 in 704ms
+ ○ Compiling /consultancy ...
+ ✓ Compiled /cart in 14.2s (2182 modules)
+ GET /login 200 in 6363ms
+ GET /cart 200 in 9658ms
+ GET /contact 200 in 12932ms
+ GET /gallery 200 in 14277ms
+ GET /consultancy 200 in 15473ms
+ GET /login 200 in 774ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 4.4s (1188 modules)
+ GET /admin 200 in 4783ms
+ ○ Compiling /admin/hatchery ...
+ ✓ Compiled /admin/hatchery in 2.1s (1196 modules)
+ GET /admin/hatchery 200 in 2726ms
+ ○ Compiling /admin/ponds ...
+ GET /admin/hatchery 200 in 2379ms
+ ✓ Compiled /admin/ponds in 3s (1204 modules)
+ GET /admin/ponds 200 in 3971ms
+^C

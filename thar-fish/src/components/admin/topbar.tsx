@@ -23,6 +23,8 @@ import {
   LogOut,
   Menu,
   Moon,
+  PanelLeft,
+  PanelLeftClose,
   Search,
   Sun,
   User,
@@ -49,7 +51,15 @@ const NOTIFICATIONS = [
   { title: "Booking confirmed", desc: "Weekend Escape · 4 guests", time: "5h ago" },
 ];
 
-export function AdminTopbar({ onMenu }: { onMenu: () => void }) {
+export function AdminTopbar({
+  onMenu,
+  collapsed = false,
+  onToggleSidebar,
+}: {
+  onMenu: () => void;
+  collapsed?: boolean;
+  onToggleSidebar?: () => void;
+}) {
   const pathname = usePathname();
   const router = useRouter();
   const { user, logout } = useAuth();
@@ -67,8 +77,25 @@ export function AdminTopbar({ onMenu }: { onMenu: () => void }) {
 
   return (
     <header className="sticky top-0 z-30 flex h-16 items-center gap-4 border-b border-border bg-background/80 px-4 backdrop-blur-xl lg:px-6">
+      {/* Mobile: open the drawer */}
       <Button variant="ghost" size="icon" className="lg:hidden" onClick={onMenu}>
         <Menu className="h-5 w-5" />
+      </Button>
+
+      {/* Desktop: collapse / expand the sidebar */}
+      <Button
+        variant="ghost"
+        size="icon"
+        className="hidden lg:flex"
+        onClick={onToggleSidebar}
+        aria-label={collapsed ? "Show sidebar" : "Hide sidebar"}
+        title={collapsed ? "Show sidebar" : "Hide sidebar"}
+      >
+        {collapsed ? (
+          <PanelLeft className="h-5 w-5" />
+        ) : (
+          <PanelLeftClose className="h-5 w-5" />
+        )}
       </Button>
 
       {/* Breadcrumbs */}

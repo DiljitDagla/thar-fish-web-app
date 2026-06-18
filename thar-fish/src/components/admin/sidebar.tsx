@@ -52,9 +52,11 @@ const NAV = [
 
 export function AdminSidebar({
   open,
+  collapsed = false,
   onClose,
 }: {
   open: boolean;
+  collapsed?: boolean;
   onClose: () => void;
 }) {
   const pathname = usePathname();
@@ -63,14 +65,17 @@ export function AdminSidebar({
     <>
       {open && (
         <div
-          className="fixed inset-0 z-40 bg-black/50 lg:hidden"
+          className="fixed inset-0 z-40 bg-black/50 transition-opacity lg:hidden"
           onClick={onClose}
         />
       )}
       <aside
         className={cn(
-          "fixed inset-y-0 left-0 z-50 flex w-64 flex-col bg-sidebar text-sidebar-foreground transition-transform lg:translate-x-0",
-          open ? "translate-x-0" : "-translate-x-full"
+          "fixed inset-y-0 left-0 z-50 flex w-64 flex-col bg-sidebar text-sidebar-foreground transition-transform duration-300 ease-out",
+          // Mobile drawer
+          open ? "translate-x-0" : "-translate-x-full",
+          // Desktop: shown by default, slid out when collapsed
+          collapsed ? "lg:-translate-x-full" : "lg:translate-x-0"
         )}
       >
         <div className="flex h-16 items-center justify-between border-b border-sidebar-border px-5">

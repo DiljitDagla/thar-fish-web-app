@@ -67,20 +67,26 @@ export default function GalleryPage() {
             <button
               key={`${g.title}-${i}`}
               onClick={() => setLightbox(g)}
-              className="group relative aspect-square overflow-hidden rounded-xl"
+              className="group relative aspect-square overflow-hidden rounded-xl shadow-sm transition-shadow duration-300 hover:shadow-xl"
             >
               <Image
                 src={g.src}
                 alt={g.title}
                 fill
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                className="object-cover transition-transform duration-500 ease-out group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
-              <div className="absolute bottom-0 p-3 text-left opacity-0 transition-opacity group-hover:opacity-100">
-                <Badge variant="gold" className="mb-1">
+              {/* Always-on gradient so captions stay readable; deepens on hover */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent transition-opacity duration-300 group-hover:from-black/85" />
+              <div className="absolute inset-x-0 bottom-0 p-3 text-left">
+                <Badge
+                  variant="gold"
+                  className="mb-1.5 -translate-y-1 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
+                >
                   {g.category}
                 </Badge>
-                <p className="text-sm font-medium text-white">{g.title}</p>
+                <p className="text-sm font-semibold text-white drop-shadow-md">
+                  {g.title}
+                </p>
               </div>
             </button>
           ))}

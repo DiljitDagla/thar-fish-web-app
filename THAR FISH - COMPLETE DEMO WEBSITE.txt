@@ -1,0 +1,418 @@
+BUILD IN NEXT JS use the same tech stack for demo as used in pcp-frontend 
+
+THAR FISH - COMPLETE DEMO WEBSITE
+
+Create a premium, investor-ready, fully responsive web application called "Thar Fish".
+
+This is a digital platform for a Rajasthan-based fish hatchery, fish farming, aquaculture consultancy, fish sales, eco-tourism, and resort business.
+
+The company manages fish ponds, hatcheries, fish production, tourism activities, farm visits, resort bookings, consultancy services, and customer orders.
+
+Build a complete modern application with beautiful UI/UX similar to modern SaaS products.
+
+Technology
+
+Use:
+
+Next.js 15
+TypeScript
+Tailwind CSS
+ShadCN UI
+Recharts
+Lucide Icons
+
+Everything should work using mock/local data only.
+
+No backend required.
+
+BUSINESS PROFILE
+
+Company Name:
+
+Thar Fish Hatchery Rathore Farm
+
+Location:
+
+Raner, Bikaner, Rajasthan
+
+Business Areas:
+
+Fish Hatchery
+Fish Farming
+Fish Seed Production
+Fisheries Consultancy
+Aquaculture Advisory
+Fish Sales
+Resort & Tourism
+Farm Visits
+Educational Tours
+AUTHENTICATION
+
+Create role-based mock login.
+
+Admin Login
+
+Email:
+admin@tharfish.com
+
+Password:
+admin123
+
+User Login
+
+Email:
+user@tharfish.com
+
+Password:
+user123
+
+Store session in local storage.
+
+Create beautiful login page with:
+
+Branding
+Hero section
+Fish farm imagery
+Statistics
+Modern glassmorphism design
+USER PORTAL
+
+After login as User.
+
+Home Dashboard
+
+Show:
+
+Hero Section
+Thar Fish Banner
+Fish Farm Background
+CTA Buttons
+Quick Stats
+Active Fish Ponds
+Fish Species
+Annual Production
+Tourist Visits
+Featured Services
+
+Cards:
+
+Fish Farming
+Hatchery Services
+Fish Consultancy
+Resort Stay
+Guided Farm Tours
+Gallery Preview
+Testimonials
+Latest News
+Contact Section
+FISH MARKETPLACE
+
+Show available fish products.
+
+Examples:
+
+Rohu
+Katla
+Tilapia
+Pangasius
+Grass Carp
+Common Carp
+
+Each card should contain:
+
+Image
+Description
+Weight
+Price
+Availability
+Add To Cart Button
+TOURISM & RESORT
+
+Show luxury farm tourism experience.
+
+Packages:
+
+Family Package
+Weekend Escape
+School Tour
+Educational Aquaculture Tour
+Corporate Retreat
+
+Each package:
+
+Image
+Duration
+Price
+Included Facilities
+Book Now
+
+Mock booking flow.
+
+CONSULTANCY SERVICES
+
+Professional consultancy section.
+
+Services:
+
+Hatchery Setup
+Pond Design
+Fisheries Consulting
+Water Quality Analysis
+Aquaculture Advisory
+Fish Disease Management
+
+Enquiry form:
+
+Name
+Phone
+Email
+Service Type
+Message
+
+Store locally.
+
+ABOUT US
+
+Show:
+
+Company Story
+Mission
+Vision
+Farm Overview
+Sustainability Practices
+
+Add modern timeline section.
+
+GALLERY
+
+Create professional gallery.
+
+Categories:
+
+Hatchery
+Fish Ponds
+Fish Stock
+Resort
+Tourists
+Infrastructure
+
+Use realistic aquaculture images.
+
+CONTACT PAGE
+
+Business Information
+
+Thar Fish Hatchery Rathore Farm
+
+Raner, Bikaner, Rajasthan
+
+Email:
+info@tharfish.com
+
+Phone:
++91 9876543210
+
+Show interactive map section.
+
+ADMIN PANEL
+
+Admin has complete access.
+
+ADMIN DASHBOARD
+
+Show modern analytics dashboard.
+
+KPI Cards:
+
+Total Customers
+Total Fish Orders
+Total Revenue
+Total Fish Stock
+Total Resort Bookings
+Total Enquiries
+CHARTS
+
+Use Recharts.
+
+Charts:
+
+Monthly Revenue
+Fish Sales Trend
+Customer Growth
+Resort Booking Trend
+Popular Fish Species
+Service Enquiries
+CUSTOMER MANAGEMENT
+
+Admin can:
+
+View Customers
+Search Customers
+Filter Customers
+
+Columns:
+
+Name
+Email
+Phone
+Status
+Registration Date
+FISH INVENTORY
+
+Admin can:
+
+Add Fish
+Edit Fish
+Delete Fish
+
+Fields:
+
+Fish Name
+Category
+Quantity
+Average Weight
+Price
+Availability
+POND MANAGEMENT
+
+Create dedicated Pond Management module.
+
+Show:
+
+Pond Name
+Area
+Water Level
+Fish Count
+Health Status
+
+Add:
+
+Create Pond
+Edit Pond
+Delete Pond
+HATCHERY MANAGEMENT
+
+Show:
+
+Batch ID
+Fish Type
+Seed Quantity
+Growth Stage
+Mortality Rate
+ORDER MANAGEMENT
+
+Admin can manage fish orders.
+
+Fields:
+
+Order Number
+Customer
+Fish Type
+Quantity
+Amount
+Payment Status
+Delivery Status
+RESORT BOOKINGS
+
+Admin can view:
+
+Customer
+Package
+Check-In
+Check-Out
+Guests
+Booking Status
+CONSULTANCY ENQUIRIES
+
+Show:
+
+Name
+Phone
+Service
+Message
+Date
+
+Admin can:
+
+View
+Mark Completed
+Delete
+REPORTS
+
+Create reports page.
+
+Sections:
+
+Revenue Report
+Sales Report
+Pond Performance
+Hatchery Performance
+Tourism Report
+
+Include export buttons.
+
+SETTINGS
+
+Business Settings
+
+Theme Settings
+
+Notification Settings
+
+Profile Settings
+
+Mock functionality only.
+
+UI REQUIREMENTS
+
+The design must feel like:
+
+Modern SaaS
+Government Smart Agriculture Portal
+Zoho
+Odoo
+ERPNext
+Enterprise Dashboard
+
+Use:
+
+Sidebar Navigation
+Top Navbar
+Search
+Notifications
+User Menu
+Breadcrumbs
+Responsive Layout
+DESIGN THEME
+
+Inspired by Rajasthan + Aquaculture.
+
+Colors:
+
+Deep Ocean Blue
+Aqua Green
+Desert Sand
+White
+Gold Accent
+
+Use premium gradients.
+
+Use high-quality fish farming and resort imagery.
+
+DEMO DATA
+
+Generate realistic data:
+
+500+ Customers
+1000+ Orders
+15 Ponds
+6 Fish Species
+50 Resort Bookings
+200 Enquiries
+Revenue Analytics
+
+No lorem ipsum.
+
+Everything should look production-ready and suitable for client presentation.
+
+Generate the complete project structure, all pages, routing, mock APIs, components, charts, tables, forms, and sample data. Make it look like a real commercial product.
